@@ -15,7 +15,7 @@ Se debe implementar una clase base `Alumno` con atributos y métodos generales, 
 
 ![Diagrama UML](UML.png)
 
-Se crearon dos clases `Persona` y `IMC`. Al crear el objeto `Persona`, se crea el objeto `IMC`, con ello, se puede acceder directamente a los atributos de `IMC` de `Persona`, pues se calculan al construirse `Persona`.
+Se creó una clase `Alumno` de la cual heredan 3 subclases `AlumnoRegular`, `AlumnoRemoto` y `AlumnoNocturno`. Se sobrescribe el método `calcularNotaFinal()` en las subclases, de tal forma que se calcule la nota final segun el tipo de alumno.
 
 ## 3. Análisis de complejidad espacial
 
@@ -86,4 +86,3 @@ Se crearon dos clases `Persona` y `IMC`. Al crear el objeto `Persona`, se crea e
   = 80 + X_1 + X_2 + X_3 + 72 + 3X_4
 
   = 152 + X_1 + X_2 + X_3 + 3X_4
-
