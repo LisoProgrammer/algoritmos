@@ -1,4 +1,4 @@
-# Taller 1
+# Taller 2
 
 ## 1. Enunciado
 
@@ -16,7 +16,7 @@ El programa debe implementar el uso de `new` en el constructor para definir un v
 
 ![Diagrama UML](UML.png)
 
-Se crearon dos clases `Persona` y `IMC`. Al crear el objeto `Persona`, se crea el objeto `IMC`, con ello, se puede acceder directamente a los atributos de `IMC` de `Persona`, pues se calculan al construirse `Persona`.
+Se crearon tres clases `grupoPersona`, `Persona` y `IMC`. Al crear el objeto `Persona`, se crea el objeto `IMC`, con ello, se puede acceder directamente a los atributos de `IMC` de `Persona`, pues se calculan al construirse `Persona`. Por otro lado, la clase `grupoPersona` almacena un puntero doble de objetos `Persona`.
 
 ## 3. Análisis de complejidad espacial
 
